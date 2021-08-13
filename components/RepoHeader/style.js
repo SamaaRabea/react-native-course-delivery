@@ -1,19 +1,22 @@
 import { StyleSheet } from "react-native";
 export default StyleSheet.create({
-    Headercontainer:{
-        height:130,
-        backgroundColor:"#000", 
-        paddingHorizontal:16,
-        flexDirection:"row",
-        alignItems:"center"
-    },header:{ 
-        color: "#fff" ,
-        fontSize:22,
-        paddingLeft:15
+    container: {
+      flexDirection: "row",
+      alignItems: "center",
+      paddingHorizontal: 24,
+      paddingTop: 30,
+      backgroundColor: "#000000",
+      height: 130,
+      paddingVertical:10
     },
-    image:{
-        width: 60,
-         height: 60
-    }
-
-})
+    text: {
+      color: "#FFFFFF",
+      fontSize: 24,
+    },
+    image: {
+      height: 60,
+      width: 60,
+      marginEnd: 20,
+      borderRadius: 8,
+    },
+  });

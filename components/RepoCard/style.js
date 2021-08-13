@@ -16,6 +16,12 @@ export default StyleSheet.create({
     shadowRadius: 2.22,
     elevation: 3,
   },
+  infoCardsContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    paddingTop:10
+  },
   image: {
     width: 60,
     height: 60, 
